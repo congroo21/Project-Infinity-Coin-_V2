@@ -1,0 +1,57 @@
+2025-01-31 12:51:42,672 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 12:51:42,685 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:02:51,667 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:02:51,681 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:06:22,200 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:06:22,213 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:08:40,581 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:08:40,595 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:11:42,106 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:11:42,120 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:18:06,876 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:18:06,889 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:21:30,048 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:21:30,062 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:21:30,075 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:21:30,075 - ERROR - 성능 요약 생성 오류: 'overall_metrics'
+2025-01-31 13:21:30,088 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:21:30,101 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:23:36,404 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:23:36,417 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:23:36,431 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:23:36,444 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:23:36,444 - ERROR - 극단적 상황 감지 오류: 'liquidity_score'
+2025-01-31 13:23:36,457 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:26:18,329 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:26:18,342 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:26:18,355 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:26:18,368 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:26:18,368 - ERROR - 극단적 상황 감지 오류: 'liquidity_score'
+2025-01-31 13:26:18,382 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:30:14,178 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:30:14,199 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:30:14,212 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:32:58,044 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:32:58,063 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:32:58,076 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:33:08,796 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-31 13:37:12,254 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:37:12,272 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:37:12,286 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:37:20,291 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-31 13:38:49,901 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:38:49,920 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:38:49,934 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:38:54,912 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-31 13:41:22,458 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:41:22,478 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:41:22,492 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:41:31,013 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-31 13:46:22,177 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:46:22,196 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:46:22,210 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:46:26,809 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-31 13:49:01,308 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:49:01,327 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:49:01,340 - INFO - DataCollector initialized for BTC/USD
+2025-01-31 13:49:08,298 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"

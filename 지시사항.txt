@@ -1,0 +1,79 @@
+현재 프로젝트의 디렉터리 구조는 다음과 같아. 프로젝트 구조: 
+project infinity coin v2/ 
+├── .env 
+├── main.py 
+├── test.py 
+├── src/
+  ├── scenarios/
+  │   ├── __init__.py
+  │   ├── models/
+  │   │   ├── __init__.py
+  │   │   ├── base_models.py        # 기본 데이터 클래스들 (MarketScenario, AnalysisResult)
+  │   │   ├── bayesian_model.py     # 베이지안 확률 모델
+  │   │   └── monte_carlo.py        # 몬테카를로 시뮬레이션 모델
+  │   ├── market/
+  │   │   ├── __init__.py
+  │   │   ├── state_manager.py      # 시장 상태 관리
+  │   │   └── analyzer.py           # 시장 분석기
+  │   ├── monitoring/
+  │   │   ├── __init__.py
+  │   │   └── performance.py        # 성능 모니터링
+  │   │── risk/risk_manager.py
+  │   └── trading/
+  │       ├── __init__.py
+  │       ├── scenario_generator.py  # 통합 시나리오 생성기
+  │       └── trading_system.py      # 통합 트레이딩 시스템
+  │
+  ├── analyzers/new_analyzers.py
+  ├── analyzers/reddit_analyzers.py
+  ├── collectors/base_collectors.py
+  ├── collectors/news_collectors.py
+  ├── collectors/reddit_collectors.py
+  ├── __init__.py
+  ├── memory_manager.py
+  ├── performance_monitor.py
+  ├── __pycache__
+  ├── websocket_manager.pys
+  ├── exceptions.py
+  ├── real_time_manager.py
+  ├── config.py # 설정 관리 
+  ├── database.py # 데이터베이스 처리
+  ├── data_collector.py # 데이터 수집 
+  ├── market_analyzer.py # 시장 분석 
+  ├── trader.py # 거래 실행
+  ├──models/reddit_models.py
+  ├──models/openai_client.py
+  └──models/volatility_models.py
+├── logs/ 
+└── templates/ 
+
+
+
+
+
+
+---
+
+
+ 이 프로젝트는 다음과 같이 개선할거야. 단계별 세부 개발 계획: Phase 1: 기반 시스템 구축 (1-2개월) 1. AI 모델 교체 및 기본 구조 개선 - gpt-4o 모델 통합 - 프롬프트 최적화 - 기존 코드 리팩토링 2. 실시간 분석 시스템 구축 - 1분 단위 분석 파이프라인 구축 - 병렬 처리 시스템 구현 - 성능 최적화 3. 기본 데이터 파이프라인 구축 - 실시간 데이터 수집 시스템 - 데이터 정제 및 저장 프로세스 - 에러 처리 및 복구 메커니즘 Phase 2: 고도화 단계 (2-3개월) 1. 멀티 시나리오 분석 시스템 - 시나리오 생성 엔진 - 확률 기반 분석 시스템 - 결과 통합 메커니즘 2. 시장 깊이 분석 - 호가창 데이터 실시간 수집 - 주문장 분석 알고리즘 - 영향력 예측 모델 3. 뉴스 분석 시스템 - 뉴스 수집 API 연동 - 실시간 감성 분석 - 영향도 평가 시스템 Phase 3: 트레이딩 시스템 개선 (2-3개월) 1. 다층적 포지션 관리 - 분할 매매 시스템 - 포지션 크기 최적화 - 리밸런싱 메커니즘 2. 미세 변동성 트레이딩 - 초단타 매매 시스템 - 수수료 최적화 - 실행 속도 개선 3. 실시간 전략 최적화 - 성과 분석(재귀 개선) 시스템 - 파라미터 자동 조정 - 피드백 루프 구현 Phase 4: 고급 기능 구현 (2-3개월) 1. 멀티 타임프레임 통합 - 다중 시간대 분석 - 결과 통합 알고리즘 - 가중치 동적 조정 2. 온체인 데이터 분석 - 블록체인 데이터 수집 - 트랜잭션 분석 - 예측 모델 통합 3. 적응형 리스크 관리 - 동적 리스크 프로필 - 자동 손실 제어 - 포트폴리오 밸런싱 최종 단계: 테스트 및 최적화 (1-2개월) 1. 통합 테스트 2. 성능 최적화 3. 실전 환경 테스트 4. 모니터링 시스템 구축 총 개발 기간: 6-10개월 - 각 단계는 병렬적으로 진행 가능 - 중간 중간 테스트와 검증 필요 - 시장 상황에 따라 우선순위 조정 가능 
+
+
+
+---
+
+나는 이 프로그램을 초~분 단위의 단타, 고빈도 매매에 활용할거야. 이 점을 항상 숙지해.
+
+---
+
+코드를 알려줄 때에는 수정된 완전한 코드를 한번에 알려주고, 혹시 코드가 300줄 이상이 된다면 3차례에 나눠서 알려줘. 코드를 알려줄 때에는 파일명도 같이 알려줘.
+
+---
+
+Openai gpt-4o api모델 사용
+
+---
+
+코드를 작성할 때에는 기존 코드의 기능을 유지하면서 작성
+
+
+---

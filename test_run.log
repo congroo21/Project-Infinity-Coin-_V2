@@ -1,0 +1,119 @@
+2025-03-04 01:01:32,726 - root - INFO - 모든 테스트 실행 중...
+2025-03-04 01:01:32,726 - root - INFO - test_system.py 테스트 실행 중...
+2025-03-04 01:01:33,430 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-03-04 01:01:33,439 - root - INFO - Database initialization completed successfully
+2025-03-04 01:01:33,443 - root - INFO - Database initialization completed successfully
+2025-03-04 01:01:33,445 - src.performance_monitor - INFO - Performance monitoring started
+2025-03-04 01:01:33,446 - src.performance_monitor - INFO - 💫 실행 시간: 0.0s | 📊 총 메시지: 0 | ⚡ 처리율: 0.0/s | ❌ 오류: 0 | ⏱ 평균 지연: 0.00ms | ⚠️ 최대 지연: 0.00ms
+2025-03-04 01:01:33,547 - src.performance_monitor - INFO - Performance monitoring stopped
+2025-03-04 01:01:33,548 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-03-04 01:01:33,548 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-03-04 01:01:33,555 - root - INFO - Database initialization completed successfully
+2025-03-04 01:01:33,560 - root - INFO - Database initialization completed successfully
+2025-03-04 01:01:33,561 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-03-04 01:01:33,562 - root - ERROR - Unexpected error during database initialization: 'Config' object has no attribute 'db_path'
+2025-03-04 01:01:33,563 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-03-04 01:01:33,569 - root - INFO - Database initialization completed successfully
+2025-03-04 01:01:33,574 - root - INFO - Database initialization completed successfully
+2025-03-04 01:01:33,581 - root - INFO - Database initialization completed successfully
+2025-03-04 01:01:33,587 - src.scenarios.market.state_manager - ERROR - Market state update error: Invalid timestamp type
+2025-03-04 01:01:33,602 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-03-04 01:01:33,602 - src.scenarios.market.state_manager - ERROR - Market state update error: Invalid timestamp type
+2025-03-04 01:01:33,664 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'timeout': 30, 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': '테스트 질문'}], 'model': 'gpt-4o'}}
+2025-03-04 01:01:33,708 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-04 01:01:33,708 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=30 socket_options=None
+2025-03-04 01:01:33,719 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x11bbd5c70>
+2025-03-04 01:01:33,719 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x11bb98e50> server_hostname='api.openai.com' timeout=30
+2025-03-04 01:01:33,727 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x11b58e420>
+2025-03-04 01:01:33,727 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-04 01:01:33,727 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-04 01:01:33,727 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-04 01:01:33,727 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-04 01:01:33,727 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-04 01:01:35,203 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 03 Mar 2025 16:01:37 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-2tl3xo2tt5xkklf2pajkvbnr'), (b'openai-processing-ms', b'908'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29979'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'42ms'), (b'x-request-id', b'req_279bc13a9a4ea3a8300c7c116e0ae538'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=tJsLXrMLyRM4w27frSpuot7EYvSyPNTJ7FRNbOoMiSQ-1741017697-1.0.1.1-YtnmKk5PYJ0CS4R.Worer8e9Nh0NOKgUUlhKVjnFYMdlsuonJu8k6JcRX0LIQGnOBHXxNyh3MlOGEqv9u5VBl7uAqYLnOc_UsTkhEOT6bCU; path=/; expires=Mon, 03-Mar-25 16:31:37 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=0w9uq0Z9KrPe1r2gr8Zo4uS2rXyy4TbRKROOurmtgNM-1741017697388-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'91aa5a777a90d1d7-ICN'), (b'Content-Encoding', b'br'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-04 01:01:35,205 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 01:01:35,206 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-04 01:01:35,206 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-04 01:01:35,206 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-04 01:01:35,207 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-04 01:01:35,208 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Mon, 03 Mar 2025 16:01:37 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'user-2tl3xo2tt5xkklf2pajkvbnr'), ('openai-processing-ms', '908'), ('openai-version', '2020-10-01'), ('x-ratelimit-limit-requests', '500'), ('x-ratelimit-limit-tokens', '30000'), ('x-ratelimit-remaining-requests', '499'), ('x-ratelimit-remaining-tokens', '29979'), ('x-ratelimit-reset-requests', '120ms'), ('x-ratelimit-reset-tokens', '42ms'), ('x-request-id', 'req_279bc13a9a4ea3a8300c7c116e0ae538'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=tJsLXrMLyRM4w27frSpuot7EYvSyPNTJ7FRNbOoMiSQ-1741017697-1.0.1.1-YtnmKk5PYJ0CS4R.Worer8e9Nh0NOKgUUlhKVjnFYMdlsuonJu8k6JcRX0LIQGnOBHXxNyh3MlOGEqv9u5VBl7uAqYLnOc_UsTkhEOT6bCU; path=/; expires=Mon, 03-Mar-25 16:31:37 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=0w9uq0Z9KrPe1r2gr8Zo4uS2rXyy4TbRKROOurmtgNM-1741017697388-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '91aa5a777a90d1d7-ICN'), ('content-encoding', 'br'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-03-04 01:01:35,208 - openai._base_client - DEBUG - request_id: req_279bc13a9a4ea3a8300c7c116e0ae538
+2025-03-04 01:01:35,231 - root - INFO - Database initialization completed successfully
+2025-03-04 01:01:35,231 - root - ERROR - test_system.py 테스트 실패
+2025-03-04 01:01:35,231 - root - INFO - test_integration.py 테스트 실행 중...
+2025-03-04 01:01:35,236 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-03-04 01:01:35,242 - src.market_analyzer - ERROR - 통합 분석 오류: 분석 결과 없음
+2025-03-04 01:01:35,243 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-03-04 01:01:35,243 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-03-04 01:01:35,251 - root - INFO - Database initialization completed successfully
+2025-03-04 01:01:35,252 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-03-04 01:01:35,253 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-03-04 01:01:35,259 - root - INFO - Database initialization completed successfully
+2025-03-04 01:01:35,260 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-03-04 01:01:35,260 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-03-04 01:01:35,265 - root - INFO - Database initialization completed successfully
+2025-03-04 01:01:35,270 - root - INFO - Database initialization completed successfully
+2025-03-04 01:01:35,271 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-03-04 01:01:35,271 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-03-04 01:01:35,277 - root - INFO - Database initialization completed successfully
+2025-03-04 01:01:35,282 - root - INFO - Database initialization completed successfully
+2025-03-04 01:01:35,283 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-03-04 01:01:35,283 - root - ERROR - test_integration.py 테스트 실패
+2025-03-04 01:01:35,283 - root - INFO - test_full_system.py 테스트 실행 중...
+2025-03-04 01:01:35,390 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-03-04 01:01:35,499 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-03-04 01:01:35,499 - root - INFO - 테스트 시작
+2025-03-04 01:01:35,499 - root - INFO - === 전체 시스템 테스트 시작 (Mock 사용) ===
+2025-03-04 01:01:35,499 - root - ERROR - Unexpected error during database initialization: 'Config' object has no attribute 'db_path'
+2025-03-04 01:01:35,500 - root - ERROR - test_full_system.py 테스트 실행 중 오류 발생: Unexpected error: 'Config' object has no attribute 'db_path'
+2025-03-04 01:01:35,500 - root - INFO - 
+=== 테스트 결과 요약 ===
+2025-03-04 01:01:35,500 - root - INFO - 기본 컴포넌트 테스트: 실패
+2025-03-04 01:01:35,500 - root - INFO - 통합 테스트: 실패
+2025-03-04 01:01:35,500 - root - INFO - 전체 시스템 테스트: 실패
+2025-03-04 01:01:35,500 - root - ERROR - ❌ 일부 테스트 실패
+2025-03-04 01:01:35,521 - httpcore.connection - DEBUG - close.started
+2025-03-04 01:01:35,521 - httpcore.connection - DEBUG - close.complete
+2025-03-04 01:08:34,783 - root - INFO - test_system.py 테스트 실행 중...
+2025-03-04 01:08:35,349 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-03-04 01:08:35,360 - root - INFO - Database initialization completed successfully
+2025-03-04 01:08:35,368 - root - INFO - Database initialization completed successfully
+2025-03-04 01:08:35,370 - src.performance_monitor - INFO - Performance monitoring started
+2025-03-04 01:08:35,370 - src.performance_monitor - INFO - 💫 실행 시간: 0.0s | 📊 총 메시지: 0 | ⚡ 처리율: 0.0/s | ❌ 오류: 0 | ⏱ 평균 지연: 0.00ms | ⚠️ 최대 지연: 0.00ms
+2025-03-04 01:08:35,472 - src.performance_monitor - INFO - Performance monitoring stopped
+2025-03-04 01:08:35,473 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-03-04 01:08:35,474 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-03-04 01:08:35,483 - root - INFO - Database initialization completed successfully
+2025-03-04 01:08:35,492 - root - INFO - Database initialization completed successfully
+2025-03-04 01:08:35,494 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-03-04 01:08:35,501 - root - INFO - Database initialization completed successfully
+2025-03-04 01:08:35,501 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-03-04 01:08:35,508 - root - INFO - Database initialization completed successfully
+2025-03-04 01:08:35,515 - root - INFO - Database initialization completed successfully
+2025-03-04 01:08:35,523 - root - INFO - Database initialization completed successfully
+2025-03-04 01:08:35,523 - src.scenarios.market.state_manager - ERROR - Market state update error: Invalid timestamp type
+2025-03-04 01:08:35,525 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-03-04 01:08:35,525 - src.scenarios.market.state_manager - ERROR - Market state update error: Invalid timestamp type
+2025-03-04 01:08:35,578 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'timeout': 30, 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': '테스트 질문'}], 'model': 'gpt-4o'}}
+2025-03-04 01:08:35,592 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-04 01:08:35,592 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=30 socket_options=None
+2025-03-04 01:08:35,607 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x12ac8a570>
+2025-03-04 01:08:35,608 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x12ac97250> server_hostname='api.openai.com' timeout=30
+2025-03-04 01:08:35,616 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x12a62a360>
+2025-03-04 01:08:35,616 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-04 01:08:35,616 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-04 01:08:35,616 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-04 01:08:35,616 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-04 01:08:35,617 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-04 01:08:36,349 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 03 Mar 2025 16:08:36 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-2tl3xo2tt5xkklf2pajkvbnr'), (b'openai-processing-ms', b'508'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29979'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'42ms'), (b'x-request-id', b'req_ee60c5eba38a3518c352235a9b344fc7'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=aQYixoQdS6ehSNvjhlt2BeQyR0zh__xPK3c7M5pJFC0-1741018116-1.0.1.1-3dftRF6KsbYQcuogTAghfMr0JFZU_mFwwCRGxhKV_BwxK7yn1hsurVpbaG1_vts0csxCwalVALtDcDWYXSbId4xmJAgTKWTdD.MNZ1YSiYM; path=/; expires=Mon, 03-Mar-25 16:38:36 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=TCrlAobaU1m0Z.1ZvFsc78GulNz3X.zxBSkM28hHWuQ-1741018116387-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'91aa64b6eae0d1e5-ICN'), (b'Content-Encoding', b'br'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-04 01:08:36,352 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 01:08:36,353 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-04 01:08:36,353 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-04 01:08:36,354 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-04 01:08:36,354 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-04 01:08:36,354 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Mon, 03 Mar 2025 16:08:36 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'user-2tl3xo2tt5xkklf2pajkvbnr'), ('openai-processing-ms', '508'), ('openai-version', '2020-10-01'), ('x-ratelimit-limit-requests', '500'), ('x-ratelimit-limit-tokens', '30000'), ('x-ratelimit-remaining-requests', '499'), ('x-ratelimit-remaining-tokens', '29979'), ('x-ratelimit-reset-requests', '120ms'), ('x-ratelimit-reset-tokens', '42ms'), ('x-request-id', 'req_ee60c5eba38a3518c352235a9b344fc7'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=aQYixoQdS6ehSNvjhlt2BeQyR0zh__xPK3c7M5pJFC0-1741018116-1.0.1.1-3dftRF6KsbYQcuogTAghfMr0JFZU_mFwwCRGxhKV_BwxK7yn1hsurVpbaG1_vts0csxCwalVALtDcDWYXSbId4xmJAgTKWTdD.MNZ1YSiYM; path=/; expires=Mon, 03-Mar-25 16:38:36 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=TCrlAobaU1m0Z.1ZvFsc78GulNz3X.zxBSkM28hHWuQ-1741018116387-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '91aa64b6eae0d1e5-ICN'), ('content-encoding', 'br'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-03-04 01:08:36,355 - openai._base_client - DEBUG - request_id: req_ee60c5eba38a3518c352235a9b344fc7
+2025-03-04 01:08:36,381 - root - INFO - Database initialization completed successfully
+2025-03-04 01:08:36,381 - root - ERROR - test_system.py 테스트 실패
+2025-03-04 01:08:36,406 - httpcore.connection - DEBUG - close.started
+2025-03-04 01:08:36,407 - httpcore.connection - DEBUG - close.complete
